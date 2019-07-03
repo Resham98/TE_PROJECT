@@ -1,0 +1,185 @@
+html, body{
+    font-size: 100%;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+.about{
+	padding:4em 0;
+	background:#FFFFFF;
+}
+.about-left-img{
+	background: url("https://www.static-codes.com/SC-components/images/agri-web/2.jpg") no-repeat 0px 0px;
+    background-size: cover;
+    min-height: 350px;
+    box-shadow: -20px 20px 8px #9e9e9e;
+}
+.about-right-info h2{
+    color: #404040;
+    margin: 0;
+    font-size: 2.5em;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    padding-bottom: .5em;
+    position: relative;
+}
+.border{
+	border-bottom: solid 1px #dcdcdc;
+    width: 20%;
+}
+.about-right-info h2:after{
+    content: "";
+    height: 3px;
+    background: #FFC107;
+    position: absolute;
+    width: 7%;
+    top: 63px;
+    left: 0;
+}
+.callbacks_container {
+	position: relative;
+	width: 100%;
+  }
+  .callbacks {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+  }
+  .callbacks li {
+	position: absolute;
+	width: 100%;
+  }
+  .callbacks img {
+	position: relative;
+	z-index: 1;
+	height: auto;
+	border: 0;
+  }
+  .callbacks .caption {
+	  display: block;
+	  position: absolute;
+	  z-index: 2;
+	  font-size: 20px;
+	  text-shadow: none;
+	  color: #fff;
+	  left: 0;
+	  right: 0;
+	  padding: 10px 20px;
+	  margin: 0;
+	  max-width: none;
+	  top: 10%;
+	  text-align: center;
+  }
+  .callbacks_nav {
+	  position: absolute;
+	  -webkit-tap-highlight-color: rgba(0,0,0,0);
+	  bottom: -30%;
+	  left: 0;
+	  opacity: 0.6;
+	  z-index: 3;
+	  text-indent: -9999px;
+	  overflow: hidden;
+	  text-decoration: none;
+	  width: 12px;
+	  height: 20px;
+	  background: transparent url("https://www.static-codes.com/SC-components/images/agri-web/arrows.png") no-repeat right top;
+  }
+  .callbacks_nav.next {
+	  left: auto;
+	  background-position: right top;
+	  left: 0;
+   }
+   .callbacks_nav.prev {
+	  right: auto;
+	  background-position: left top;
+	  left: 4%;
+  }
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+}
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display:none;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.rslides li{
+  position: relative;
+  display: block;
+  float: left;
+}
+/*----*/
+/*-- slider --*/
+.w3ls-text {
+    width: 75%;
+    margin: 2em 0 auto;
+}
+.w3ls-text p{
+    color: black;
+    font-size: 1.0em;
+    line-height: 1.8em;
+    margin: 0;
+    text-align: justify;
+}
+
+
+@media(max-width:1080px){
+	.w3ls-text {
+		width: 90%;
+	}
+}
+@media(max-width:991px){
+	.wthree-about-right {
+		margin: 3em 0 0 0;
+	}
+}
+@media(max-width:640px){
+	.w3ls-text {
+		width: 100%;
+	}
+}
+@media(max-width:480px){
+	.about-left-img {
+		min-height: 260px;
+	}
+	.about {
+		padding: 2em 0 3em 0;
+	}
+}
+@media(max-width:414px){
+	.about-right-info h2 {
+		font-size: 2em;
+	}
+	.about-right-info h2:after {
+		width: 13%;
+		top: 50px;
+	}
+	.border {
+		width: 32%;
+	}
+	.w3ls-text {
+		margin: 1em 0 auto;
+		width: 99%;
+	}
+}
+@media(max-width:320px){
+	.w3ls-text {
+		width: 93%;
+	}
+	.about-right-info h2 {
+		font-size: 1.5em;
+	}
+	.about-right-info h2:after {
+		top: 37px;
+	}
+	.about-left-img {
+		min-height: 150px;
+	}
+}

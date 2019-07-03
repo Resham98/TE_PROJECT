@@ -1,0 +1,490 @@
+a:hover{
+ text-decoration:none;
+}
+input[type="submit"]{
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+}
+
+h3,h4,h5{
+	    font-family: 'Noto Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}	
+
+ul{
+	margin:0;
+	padding:0;
+}
+label{
+	margin:0;
+}
+#toTop {
+	display: none;
+	text-decoration: none;
+	position: fixed;
+	bottom: 24px;
+	right: 1%;
+	overflow: hidden;
+	z-index: 999; 
+	width: 32px;
+	height: 32px;
+	border: none;
+	text-indent: 100%;
+	background: url("https://components.staticcodes.io/img/community/befriend/section/up.png");
+}
+#toTopHover {
+	width: 32px;
+	height: 32px;
+	display: block;
+	overflow: hidden;
+	float: right;
+	opacity: 0;
+	-moz-opacity: 0;
+	filter: alpha(opacity=0);
+}
+.donate_form_w3l form input[type="text"],.donate_form_w3l form input[type="password"]{
+    padding:8px 11px;
+    display: block;
+        width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color:#555;
+    font-size: 1em;
+    box-shadow: inset 0px 0px 3px #555;
+    -webkit-box-shadow: inset 0px 0px 3px #555;
+    -moz-box-shadow: inset 0px 0px 3px #555;
+    -o-box-shadow: inset 0px 0px 3px #555;
+    -webkit-appearance: none;
+}
+.donate_form_w3l form input[type="submit"] {
+    text-transform: capitalize;
+       background: #e3001f;
+    color: #FFFFFF;
+    padding: .8em 2em;
+    border: none;
+    font-size: 1em;
+    outline: none;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+    text-transform: uppercase;
+    width: 100%;
+    font-weight: 600;
+    margin-top: 1em;
+    -webkit-appearance: none;
+}
+.donate_form_w3l form textarea{
+	padding:8px 11px;
+    display: block;
+    width: 100%;
+    background: none;
+    border: none;
+    outline: none;
+    color:#555;
+    font-size: 1em;
+    box-shadow: inset 0px 0px 3px #555;
+    -webkit-box-shadow: inset 0px 0px 3px #555;
+    -moz-box-shadow: inset 0px 0px 3px #555;
+    -o-box-shadow: inset 0px 0px 3px #555;
+    -webkit-appearance: none;
+	height:75px;
+}
+ul.infor label {
+    font-weight: 600;
+}
+ul.infor li {
+    display: inline-block;
+    border: 1px solid #fff;
+    padding: 10px 31px;
+    font-size: 0.9em;
+    color: #fff;
+    background: #13a538;
+    letter-spacing: 1px;
+}
+.form-one {
+    padding-left: 0;
+}
+.form-one p {
+    color: #000;
+    font-size: 0.9em;
+    margin: 0.5em 0;
+    letter-spacing: 1px;
+}
+.form-one.two {
+    padding-right: 0;
+}
+ul.infor {
+    margin: 1em 0;
+}
+.donate_form_w3l h5 {
+    color: #222;
+    font-size: 1.2em;
+}
+/*-- //donate_form --*/
+.modal-header h4 {
+    text-transform: uppercase;
+    text-align: center;
+    margin: 1em 0;
+    font-size: 2em;
+    color: #000;
+    letter-spacing: 1px;
+}
+.modal-header {
+    min-height: 16.42857143px;
+    padding: 30px;
+    border-bottom: none!important;
+}
+.title-agileits {
+    text-align: center;
+}
+.title-agileits h3{
+        display: block;
+    color: #212121;
+    font-size: 2.5em;
+    position: relative;
+    padding-bottom: .5em;
+}
+
+
+
+
+h3.w3l-agile {
+    margin-top: 39px;
+    color: black;
+}
+/* .title-agileits h3:after {*/
+    content: '';
+    background: #ffad00;
+    height: 4px;
+    width: 9%;
+    position:relative;
+    bottom: -1px;
+    left: 450px;
+}
+/*h3.w3l-agile:before {*/
+	    content: '';
+  background: black;
+    height: 1px;
+    width: 11%;
+    position: absolute;
+    bottom: 0%;
+    left: 44%;
+}
+
+
+
+.text-desc{
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    height: 100%;
+    opacity: 0;
+    width: 100%;
+    padding: 68px 24px 0;
+	}
+.port-2{ 
+	width: 100%;
+/*    margin-top: 1px;*/
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+    border: 1px solid #ccc;
+	perspective: 800px;
+    padding: 5px 5px;
+	}
+
+.port-2 .text-desc{
+	z-index: -1;
+	transition: 0.6s;
+	background:#fff;
+	}
+
+/*.port-2:hover .image-box{*/
+	transform: rotateX(80deg);
+	transform-origin: center bottom 0; 
+	transition: 0.4s;
+
+
+.process_grids{
+	margin-top:55px;
+}
+.text-desc h4 {
+    color: #ffad00;
+    font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.text-desc p{
+	font-size:15px;
+	line-height:2.2em;
+	color:#464646;
+	
+}
+.process-one h5 {
+    font-size: 1.8em;
+    color: #fff;
+}
+.process-one p {
+    font-size: 1em;
+    color: #fff;
+    line-height: 2em;
+    margin: 1em 0 2em 0;
+    letter-spacing: 1px;
+}
+ 
+
+.process-agileits{
+/*    background: url(https://components.staticcodes.io/img/community/befriend/section/banner.jpg) no-repeat 0px 0px;*/
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+       min-height: 671px;
+    padding-top: 6em;
+}
+
+
+@media (max-width: 1440px){
+	.process-agileits {
+		min-height: 671px;
+		padding-top: 5em;
+	}
+	.title-agileits h3 {
+       font-size: 2.2em;
+	}
+}
+@media (max-width: 1366px){
+	.process-agileits {
+		min-height: 636px;
+		padding-top: 4em;
+	}
+	.process-one h5 {
+		font-size: 1.4em;
+	}
+	
+}
+@media (max-width: 1080px){
+	.title-agileits h3:after {
+		height: 4px;
+		width: 3%;
+		position: absolute;
+		bottom: -1px;
+		left: 450px;
+	}
+	.process-agileits {
+		min-height: 580px;
+		padding-top: 4em;
+	}
+	.process-one p {
+		font-size: 0.9em;
+		line-height: 2em;
+		margin: 1em 0 2em 0;
+	}
+	.process-agileits {
+		min-height: 550px;
+		padding-top: 3em;
+	}
+}
+@media (max-width: 991px){
+	.title-agileits h3:before {
+		content: '';
+		height: 1px;
+		width: 17%;
+		position: absolute;
+		bottom: 0%;
+		left: 41%;
+	}
+	.title-agileits h3:after {
+		height: 4px;
+		width: 6%;
+		position: absolute;
+		bottom: -1px;
+		left: 332px;
+	}
+	.process_left {
+		float: left;
+		width: 50%;
+	}
+	.title-agileits h3 {
+		font-size: 2em;
+	}
+	.process-agileits {
+		min-height: 489px;
+		padding-top: 3em;
+	}
+}
+@media (max-width:737px){
+	.title-agileits h3:after {
+		height: 4px;
+		width: 6%;
+		position: absolute;
+		bottom: -1px;
+		left: 321px;
+	}
+}
+@media (max-width:667px){
+	.title-agileits h3:after {
+		height: 4px;
+		width: 6%;
+		position: absolute;
+		bottom: -1px;
+		left: 294px;
+	}
+	.process-one h5 {
+		font-size: 1.2em;
+	}
+}
+@media (max-width: 640px){
+	.title-agileits h3 {
+		font-size: 1.8em;
+	}
+	.title-agileits h3:after {
+		height: 4px;
+		width: 6%;
+		position: absolute;
+		bottom: -1px;
+		left: 278px;
+	}
+	
+	
+}
+@media (max-width: 600px){
+	.title-agileits h3:after {
+		height: 4px;
+		width: 6%;
+		position: absolute;
+		bottom: -1px;
+		left: 259px;
+	}
+	.form-one {
+		padding-left: 0;
+		padding-right: 0;
+	}
+}
+@media (max-width: 568px){
+	.process-one {
+		width: 100%;
+		    padding: 0;
+	}
+	.process_left {
+		float: none;
+		width: 50%;
+		margin-bottom: 2em;
+	}
+	.process-one p {
+		font-size: 0.9em;
+		line-height: 1.8em;
+		margin: 1em 0 1em 0;
+	}
+	.text-desc h4 {
+		font-size: 17px;
+		margin-bottom: 25px;
+	}
+	.title-agileits h3 {
+		font-size: 1.6em;
+	}
+	.title-agileits h3:after {
+		height: 4px;
+		width: 6%;
+		position: absolute;
+		bottom: -1px;
+		left: 243px;
+	}
+	.process_grids {
+		margin-top: 39px;
+	}
+	.process-agileits {
+		min-height: 500px;
+		padding-top: 2em;
+		padding-bottom: 3em;
+	}
+	ul.infor li {
+       padding: 10px 22px;
+	}
+}
+@media (max-width: 480px){
+	.title-agileits h3:after {
+		height: 4px;
+		width: 6%;
+		position: absolute;
+		bottom: -1px;
+		left: 202px;
+	}
+}
+@media (max-width: 414px){
+	.title-agileits h3 {
+		font-size: 1.5em;
+	}
+	.title-agileits h3:before {
+		content: '';
+		height: 1px;
+		width: 23%;
+		position: absolute;
+		bottom: 0%;
+		left: 38%;
+	}
+	.title-agileits h3:after {
+		height: 4px;
+		width: 8%;
+		position: absolute;
+		bottom: -1px;
+		left: 168px;
+	}
+	.process_left {
+		float: none;
+		width: 79%;
+		margin-bottom: 2em;
+	}
+	.donate_form_w3l h5 {
+		font-size: 1em;
+		line-height: 1.4em;
+	}
+	.modal-header h4 {
+		margin:0em 0 1em 0;
+		font-size: 1.5em;
+	}
+}
+@media (max-width: 384px){
+	.title-agileits h3:after {
+		height: 4px;
+		width: 8%;
+		position: absolute;
+		bottom: -1px;
+		left: 155px;
+	}
+}
+@media (max-width:375px){
+	.title-agileits h3:before {
+		content: '';
+		height: 1px;
+		width: 26%;
+		position: absolute;
+		bottom: 0%;
+		left: 38%;
+	}
+}
+@media (max-width:320px){
+	.title-agileits h3 {
+		font-size: 1.4em;
+	}
+	.title-agileits h3:after {
+		height: 4px;
+		width: 8%;
+		position: absolute;
+		bottom: -1px;
+		left: 128px;
+	}
+	ul.infor li {
+		padding:7px 75px;
+	}
+    
+}

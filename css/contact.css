@@ -1,0 +1,372 @@
+::selection {
+  background-color: #a4272b;
+  color: #FFFFFF;
+}
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: #fff;
+    letter-spacing: 1px;
+ font-family: 'Roboto', sans-serif;
+}
+input[type="email"],input[type="text"],textarea{
+   font-family: 'Roboto', sans-serif;
+	transition:0.5s all;
+	-webkit-transition:0.5s all;
+	-moz-transition:0.5s all;
+	-o-transition:0.5s all;
+	-ms-transition:0.5s all;
+	letter-spacing: 1px;
+	
+}
+h2,
+h4 {
+    margin: 0;
+    padding: 0;
+   font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.row{margin:0px;}
+/*-- //Reset-Code --*/
+/*-- header --*/
+/* -- TOP HEADER */
+/* -- //TOP HEADER */ 
+/*--search--*/
+/*--//search--*/
+/*-- nav --*/
+/*-- //nav --*/
+/*-- //header --*/ 
+/*--/banner --*/
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+/* Carousel base class */
+/* Since positioning the image, we need to help out the caption */
+/* Declare heights because of positioning of img element */
+/* MARKETING CONTENT
+-------------------------------------------------- */
+/* Center align the text within the three columns below the carousel */
+/* Featurettes
+------------------------- */
+/* Thin out the marketing headings */
+/*--/slider--*/
+/* Show it is fixed to the top */
+/*--//banner --*/
+/* services */
+/* //services */
+.heading-agileinfo {
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    padding-top: 3em;
+	margin-bottom: 2.5em;
+    text-transform: capitalize;
+    position: relative;
+}
+.heading-agileinfo span {
+    display: block;
+    font-size: 16px!important;
+    margin-top: 1em;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    color: #000000;
+    font-weight: 500;
+}
+.heading-agileinfo span:after {
+    content: '';
+    background: #212121;
+    height: 7px;
+    width: 6%;
+    position: absolute;
+    top: 132%;
+    /*right: 47%;*/
+    left:48%;
+}
+/*-- testimonials --*/
+/*--flexisel--*/
+/*---- Nav ---*/
+/*--//flexisel--*/
+/*-- //testimonials --*/
+/*-- services --*/
+/*-- //services --*/
+/*-- why choose us --*/
+/*
+.why_us{
+	color: black;
+}
+*/
+/*-- //why choose us --*/
+
+/*--footer--*/
+
+/*.footer_w3layouts_section_1its{*/
+/*	background: #151515;*/
+/*}*/
+
+/*.footer_w3layouts_section_1its h3,.footer_w3layouts_section_1its h2{*/
+/*	font-size: 1.6em;*/
+/*	color: #ffffff;*/
+/*    font-weight: 300;*/
+/*	margin-bottom: 20px;*/
+/*	letter-spacing: 1px;*/
+/*}*/
+
+/*.footer-text p,.contact-info p {*/
+/*    color: #808080;*/
+/*    font-size: 14px;*/
+/*    line-height: 1.8em;*/
+/*    letter-spacing: 0.5px;*/
+/*}*/
+
+/*.phone {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*.contact-info h4 {*/
+/*    font-style: normal;*/
+/*    font-weight: 300;*/
+/*    font-size: 1.3em;*/
+/*    line-height: 1.71;*/
+/*    letter-spacing: 1px;*/
+/*    text-transform: capitalize;*/
+/*    color: #fff;*/
+/*}*/
+/*.copyright {*/
+    /*border-top: 1px solid #808080;*/
+/*    margin-top: 2em;*/
+/*    padding-top: 2em;*/
+/*    margin-left: 15px;*/
+/*}*/
+/*.copyright p {*/
+/*    font-size: 15px;*/
+/*    letter-spacing: .5px;*/
+/*    text-transform: capitalize;*/
+/*    font-family: 'Raleway', sans-serif;*/
+/*}*/
+/*.copyright p a{*/
+/*	color:#a4272b;*/
+/*	text-decoration: underline;*/
+/*}*/
+/*.copyright p a:hover {*/
+/*	color:#fff;*/
+/*}*/
+/*.footer{*/
+/*	padding: 4em 0;*/
+/*}*/
+
+/*.footer p {*/
+/*	color: #808080;*/
+/*}*/
+
+/*.footer-grid:nth-child(2) {*/
+/*	border-left: 1px solid #1b1b1b;*/
+/*	border-right: 1px solid #1b1b1b;*/
+/*}*/
+
+/*.footer ul li.hd {*/
+/*	color: #34bf49;*/
+/*}*/
+
+
+
+/*.flickr-grid {*/
+/*	float: left;*/
+/*	width: 32%;*/
+/*	margin: 0 0.1em .2em;*/
+/*}*/
+
+/*.flickr-grid a img {*/
+/*	width: 100%;*/
+/*	padding: 0.3em;*/
+/*	border: 1px solid #333333;*/
+/*}*/
+
+/*.footer-text input[type="email"] {*/
+/*    outline: none;*/
+/*    padding: 12px 15px;*/
+/*    color: #fff;*/
+/*    font-size: 13px;*/
+/*    width: 85%;*/
+/*    border: none;*/
+/*    background: none;*/
+/*    letter-spacing: 1px;*/
+/*}*/
+
+/*.newsletter {*/
+/*	position: relative;*/
+/*	margin-top: 2em;*/
+/*}*/
+
+/*button.btn1 {*/
+/*    color: #fff;*/
+/*    border: none;*/
+/*    padding: 10px 0;*/
+/*    outline: none;*/
+/*    text-align: center;*/
+/*    text-decoration: none;*/
+/*    background: none;*/
+/*   cursor:pointer;*/
+/*    -webkit-transition: 0.5s all;*/
+/*    -moz-transition: 0.5s all;*/
+/*    -o-transition: 0.5s all;*/
+/*    -ms-transition: 0.5s all;*/
+/*    transition: 0.5s all;*/
+/*    float: right;*/
+/*    width: 15%;*/
+/*}*/
+/*.footer-grid_section_1its_w3 form {*/
+/*    border: 1px solid #fff;*/
+/*    width: 100%;*/
+/*    margin-top: 20px;*/
+/*}*/
+/*ul.social_section_1info li {*/
+/*    display: inline-block;*/
+/*}*/
+
+/*ul.social_section_1info {*/
+/*    margin-top: 15px;*/
+/*}*/
+
+/*ul.social_section_1info a {*/
+/*    color: #808080;*/
+/*    margin-right: 10px;*/
+/*    font-size: 15px;*/
+/*}*/
+/*ul.social_section_1info a:hover{*/
+/*    color: #fff;*/
+/*}*/
+
+/*.phone p a {*/
+/*    color: #808080;*/
+/*}*/
+/*.phone p a:hover {*/
+/*    color: #fff;*/
+/*}*/
+
+/*ul.links li {*/
+/*    list-style-type: none;*/
+/*    margin: 10px 0;*/
+/*}*/
+/*ul.links li a{*/
+/*    color: #808080;*/
+/*    font-size: 15px;*/
+/*    letter-spacing: .5px;*/
+/*}*/
+/*ul.links li a:hover{*/
+/*    color: #fff;*/
+/*}*/
+/*--//footer--*/
+/* about page */
+/*.about {*/
+/*    padding: 5em 0;*/
+/*}*/
+
+/* Team */
+/* Team */
+/*-- wthree-mid --*/
+/*-- //wthree-mid --*/
+/*--Typography--*/
+@media (max-width:640px){
+h2 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+}
+/*-- //typography --*//*--gallery --*/
+/*-- //Gallery --*/
+/*-- contact us --*/
+.mail{
+	 padding: 5em 0;
+}
+.agileits_mail_grid_left input[type="text"], .agileits_mail_grid_left input[type="email"], .agileits_mail_grid_left textarea {
+    outline: none;
+    background: #f5f5f5;
+    border: 1px solid #E8E8E8;
+    color: #212121;
+    padding: 10px;
+    font-size: 14px;
+    width: 100%;
+    margin-bottom: 2em;
+}
+.agileits_mail_grid_left textarea {
+    min-height: 150px;
+}
+.agileits_mail_grid_left h4 {
+    font-size: 1em;
+    color: black;
+    margin-bottom: 1em;
+    font-weight: 600;
+}
+.agileits_mail_grids {
+    margin-top: 5em;
+}
+.agileits_mail_grid_right {
+    padding-left: 40px;
+}
+/*.left-agileits {*/
+/*    margin-top: 30px;*/
+/*}*/
+.agile-map iframe {
+    min-height: 370px;
+	width: 100%;
+}
+/*-- contact us --*/
+/*-- to-top --*/
+/*-- //to-top --*/
+/*--responsive--*/
+@media(max-width:991px){
+.heading-agileinfo span {
+    font-size: 14px!important;
+}
+}
+@media(max-width:768px){
+.mail {
+    padding: 3em 0;
+}
+.heading-agileinfo {
+    margin-bottom: 2em;
+}
+}
+@media(max-width:736px){
+.heading-agileinfo span {
+    line-height: 1.8em;
+}
+.agileits_mail_grid_right {
+    padding-left: 15px;
+    margin-top: 2em;
+}
+}
+@media(max-width:480px){
+.heading-agileinfo {
+    font-size: 36px;
+}
+.agile-map iframe {
+    min-height: 250px;
+}
+}
+@media(max-width:440px){
+.heading-agileinfo {
+    font-size: 34px;
+}
+.heading-agileinfo span:after {
+    top: 120%;
+    right: 40%;
+}
+}
+@media(max-width:320px){
+.mail {
+    padding: 2.5em 0;
+}
+.heading-agileinfo {
+    font-size: 32px;
+}
+.agileits_mail_grids {
+    margin-top: 0em;
+}
+}
+/*--//responsive--*/
+
